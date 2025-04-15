@@ -5,12 +5,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-BASE_MODEL = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+#BASE_MODEL = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
 # Other options:
-# MODEL = "meta-llama/Llama-2-7b-chat-hf"
+MODEL = "meta-llama/Llama-2-7b-chat-hf"
 # MODEL = "openlm-research/open_llama_3b"
 
 # If you finetune the model or change it in any way, save it to huggingface hub, then set MY_MODEL to your model ID. The model ID is in the format "your-username/your-model-name".
-MY_MODEL = None
+MY_MODEL = MODEL
 
 HF_TOKEN = os.getenv("HF_TOKEN")
