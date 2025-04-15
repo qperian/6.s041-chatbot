@@ -1,5 +1,5 @@
 ---
-title: 6.S041 Staff Chatbot
+title: 6.S041 Chatpot project
 emoji: 🚀
 colorFrom: blue
 colorTo: red
